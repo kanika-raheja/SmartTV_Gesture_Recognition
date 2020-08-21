@@ -23,15 +23,6 @@ Each row of the CSV file represents one video and contains three main pieces of 
 
 Your task is to train a model on the 'train' folder which performs well on the 'val' folder as well (as usually done in ML projects). We have withheld the test folder for evaluation purposes - your final model's performance will be tested on the 'test' set.
 
-To get started with the model building process, you first need to get the data on your persistent storage. In order to get the data on the persistent storage, perform the following steps in order.
-
-    Download the above zip file containing the Perl script and upload it on your persistent storage in a folder of your choice
-    Open the terminal
-    Go to the path where you have kept the zip file on the terminal and execute 'unzip gdown.pl-master.zip'. You'll find an unzipped folder 'gdown.pl-master'.
-    Run the following commands in order: apt-get remove wget apt-get update apt-get upgrade apt-get dist-upgrade apt-get install wget
-    Now, move to the folder 'gdown.pl-master' on the terminal and execute './gdown.pl https://drive.google.com/file/d/1ehyrYBQ5rbQQe6yL4XbLWe3FMvuVUGiL/view?usp=sharing Neural_Nets.zip'
-    Execute 'unzip Neural_Nets.zip' and there you have the data with you.
-
 Two Architectures: 3D Convs and CNN-RNN Stack
 
 After understanding and acquiring the dataset, the next step is to try out different architectures to solve this problem.
